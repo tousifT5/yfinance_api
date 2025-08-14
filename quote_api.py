@@ -82,4 +82,4 @@ def get_stock_quote():
 if __name__ == '__main__':
     # Run the Flask app on a specific port.
     # In a production environment, you would use a WSGI server like Gunicorn.
-    app.run(debug=True, port=5000)
+    app.run()
